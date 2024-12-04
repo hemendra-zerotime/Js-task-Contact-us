@@ -2,4 +2,68 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    background-color: peru;
+}
+
+.form-container {
+    background-color: skyblue;
+    border: 1px solid;
+    height: auto;
+    width: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input-containers {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    padding: 15px;
+}
+
+.input-container label {
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+.input-container input {
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.input-container textarea {
+    border: none;
+    border-radius: 15px;
+}
+
+label[for="message-box"] {
+    position: relative;
+    bottom: 60px;
+}
+
+button {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 8px 15px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: #ef6262;
 }
