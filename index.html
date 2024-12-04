@@ -16,21 +16,21 @@
     <div class="input-containers">
         <div class="input-container">
             <label for="name">Name:</label>
-            <input id="name" type="text" placeholder="Enter Your Name">
+            <input id="name" type="text" placeholder="Enter Your Name" required>
         </div>
         <div class="input-container">
             <label for="email">Email:</label>
-            <input id="email" type="email" placeholder="Enter Your Email">
+            <input id="email" type="email" placeholder="Enter Your Email" required>
         </div>
         <div class="input-container">
             <label for="message-box">Message</label>
-            <textarea name="message-box" rows="5" cols="20" id="message"></textarea>
+            <textarea name="message-box" rows="5" cols="20" id="message" required></textarea>
         </div>
 
 
 
     </div>
-    <button>Submit</button>
+    <button onclick="handleSubmit()">Submit</button>
 </div>
 
 </html>
